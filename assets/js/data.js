@@ -14,9 +14,9 @@ const EV=[
 {id:4,t:'Robotics Showcase',d:[12,'Oct'],c:'Showcase',v:'Open Arena, NIET',s:'done'},
 {id:5,t:'Intro to Git and GitHub',d:[20,'Sep'],c:'Workshop',v:'Lab 1, NIET',s:'done'}];
 const PJ=[
-{t:'Smart Plant Monitor',p:'Hostel gardens lose plants to missed watering.',s:['ESP32','MQTT','React'],b:'Aarav, Meera',g:'#'},
-{t:'Attendance by Face',p:'Roll calls eat ten minutes of every lecture.',s:['Python','OpenCV','Flask'],b:'Kabir, Isha',g:'#'},
-{t:'Line-Following Cart',p:'Labs need a low-cost cart for logistics demos.',s:['Arduino','C++','PID'],b:'Riya, Dev',g:'#'}];
+ {t:'Smart Plant Monitor',p:'Hostel gardens lose plants to missed watering.',s:['ESP32','MQTT','React'],b:'Aarav, Meera',y:'2026',kind:'IoT system',brief:'A low-power sensor node that turns soil readings into a simple, actionable watering signal.',build:['Capacitive soil sensor','ESP32 telemetry node','MQTT message channel','Responsive monitoring view'],out:'A prototype for checking soil status without walking to every bed.',g:'',v:'plant'},
+ {t:'Attendance by Face',p:'Roll calls eat ten minutes of every lecture.',s:['Python','OpenCV','Flask'],b:'Kabir, Isha',y:'2026',kind:'Computer vision',brief:'A privacy-conscious attendance prototype designed to reduce repetitive classroom roll calls.',build:['Face-detection pipeline','Local recognition flow','Flask review screen','Manual verification step'],out:'A working exploration of faster attendance with a human check in the loop.',g:'',v:'face'},
+ {t:'Line-Following Cart',p:'Labs need a low-cost cart for logistics demos.',s:['Arduino','C++','PID'],b:'Riya, Dev',y:'2025',kind:'Robotics',brief:'A compact autonomous cart that follows a marked path and demonstrates closed-loop motor control.',build:['Infrared sensor array','PID steering logic','Arduino motor control','Modular chassis'],out:'A repeatable lab demonstration platform for motion-control experiments.',g:'',v:'cart'}];
 const FM=[
 {y:2026,ty:'Competition',t:'Second place, inter-college hackathon',d:'Team [names] built a working prototype in 24 hours.'},
 {y:2026,ty:'Project',t:'Smart Plant Monitor wins campus innovation award',d:'Recognised by [faculty panel] for practical IoT use.'},
